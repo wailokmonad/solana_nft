@@ -37,4 +37,5 @@ Yes, Solana has its own standards for Non-Fungible Tokens (NFTs). Unlike Ethereu
     * Projects like **Solana Monkey Business, Degenerate Ape Academy**, and platforms like **Magic Eden** (a leading Solana NFT marketplace) showcase the ecosystem's NFT capabilities.
 
 
+### Design
 This repository provides a basic NFT implementation in Solana using **Anchor**, a development framework for building secure Solana programs. It follows the SPL Token Standard. Its decimals is hardcoded in 0. During the minting process we just specifiy 1 as the amount. After that we will immeditately set the **mint authority** to None to make sure nobody can mint it again. So the supply is guaranteed to be 1.
